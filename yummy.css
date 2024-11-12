@@ -1,0 +1,43 @@
+.navbar-brand {
+    float: left;
+    color: #db0606;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.mynav {
+    padding: 20px 60px 20px 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-link,
+.nav-item {
+    color: rgb(31, 31, 31);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+#grad1 {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, rgb(253, 251, 251), rgb(253, 253, 209));
+}
+
+.footer a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+.footer a:hover {
+    color: #ddd;
+    text-decoration: none;
+}
